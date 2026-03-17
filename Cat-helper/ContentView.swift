@@ -45,8 +45,6 @@ struct ContentView: View {
                     }
                     .padding(.horizontal, 40)
                     
-
-                    
                     Spacer()
                 }
             }
