@@ -45,6 +45,16 @@ struct ContentView: View {
                     }
                     .padding(.horizontal, 40)
                     
+                    // REQ 4: Link to SlideShowView
+                    NavigationLink(destination: SlideShowView()) {
+                        Text("SlideShow of my cat")
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.green)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+                    .padding(.horizontal, 40)
                     Spacer()
                 }
             }
